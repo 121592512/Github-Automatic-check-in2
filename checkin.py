@@ -21,7 +21,7 @@ def git_commit_and_push():
     os.system('git config --global user.email "121592512@qq.com"')
 
     # 设置 GitHub Token（从 secrets 获取）
-    os.system(f'git remote set-url origin https://{os.getenv("GITHUB_TOKEN")}@github.com/121592512/Github-Automatic-check-in.git')
+    os.system(f'git remote set-url origin https://{os.getenv("GITHUB_TOKEN")}@github.com/121592512/Github-Automatic-check-in2.git')
 
     # 添加、提交
     os.system("git add daily-log.txt")
